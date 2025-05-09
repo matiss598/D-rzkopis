@@ -1,0 +1,98 @@
+body{
+  font-family: sans-serif;
+  background-color: rgb(240, 248, 219);
+}
+
+header{
+  background-color: rgb(154, 243, 209);
+  padding: 30px;
+  border-radius: 7px;
+  width: 900px;
+  margin: auto;
+  text-align: center;
+  box-shadow: 5px 5px 4px rgb(193, 243, 239);
+}
+
+main{
+  background-color: rgb(227, 248, 135);
+  padding: 30px;
+  border-radius: 7px;
+  width: 1100px;
+  margin: auto;
+  height: 400px;
+  margin-top: 20px;
+  text-align: center;
+  box-shadow: 5px 5px 4px rgb(193, 243, 239);
+}
+
+h2{
+  font-size:      30px;
+  font-weight:    initial;
+}
+
+footer{
+  background-color: rgb(142, 238, 163);
+  width: 900px;
+  margin: auto;
+  text-align: center;
+  border-radius: 7px;
+  height: 100px;
+  box-shadow: 5px 5px 4px rgb(193, 243, 239);
+}
+
+footer h2{
+  font-size: 20px;
+  font-weight: lighter;
+  color: rgb(107, 106, 106);
+}
+
+.pukes li{
+  font-size: 40px;
+  text-align: left;
+  
+}
+
+.pukes li:hover{
+  font-size: 43px;
+}
+
+.pukes{
+  height: 100px;
+}
+
+a{
+  font-size: 25px;
+}
+
+a:hover{
+  font-size: 28px;
+}
+
+header .tulpe{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.tulpe img{
+  max-width: 125px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 3px 3px;
+}
+
+.pamaciba{
+  font-size: 25px;
+  text-align: left;
+}
+
+.kolaza{
+  max-width: 150px;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-color: rgb(164, 252, 230);
+  }
+}
